@@ -11,7 +11,7 @@ data class Category(
     val strCategoryDescription:String
     ):Parcelable
 
-// that data class can be used for to response the Api as a list show shows the data class Category as a List
+
 data class CategoryResponse (val categories:List<Category>)
 
 //"idCategory": "1",
