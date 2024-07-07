@@ -7,16 +7,11 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
 
 class mainViewModel:ViewModel() {
-    /*
-then I just Create the private Var to can hold the mutableStateof -> RecipeState
- */
+
 
     private val _categoryState = mutableStateOf(RecipeState())
 
-    /*
-then Create the var to can acess the CategoryState to Ui
-that hold the State<RecipeState> = _categoryState val
- */
+  
     val categorisState: State<RecipeState> = _categoryState
 
 
